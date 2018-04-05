@@ -82,8 +82,8 @@ void RefMain()
 {
 	int nData;
 	int &refData = nData; // 참조자는 반드시 값을 초기화시켜줘야함
-	// 참조자는 포인터의 단점, NULL이 되거나 쓰래기값이 들어있을 가능성을 배제함.
-	// 참조자에 대입하게 되면 원본이 바뀜
+						  // 참조자는 포인터의 단점, NULL이 되거나 쓰래기값이 들어있을 가능성을 배제함.
+						  // 참조자에 대입하게 되면 원본이 바뀜
 
 	nData = 10;
 	cout << "nData : " << nData << endl;
@@ -175,7 +175,7 @@ void CHangManMain()
 		{
 			printf("\n");
 		}
-		
+
 	}
 	printf("YoU WinNEr!\n");
 }
